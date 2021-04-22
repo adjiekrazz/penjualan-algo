@@ -4,6 +4,7 @@ namespace Database\Factories;
 
 use App\Models\Konsumen;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
 
 class KonsumenFactory extends Factory
 {
@@ -12,7 +13,7 @@ class KonsumenFactory extends Factory
      *
      * @var string
      */
-    protected $model = Model::class;
+    protected $model = Konsumen::class;
 
     /**
      * Define the model's default state.
